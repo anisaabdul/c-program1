@@ -1,0 +1,16 @@
+`#include<stdio.h>
+int main()
+{
+ float basic,bonus,commision.totalSales,totalSalary;
+ int itemsSold;
+ printf("enter the basic salary:");
+ scanf("%f",&basic);
+ printf("enter the bonus per item");
+ scanf("%f",&bonus);
+ printf("enter the commision percentage:");
+ scanf("%f",&commission);
+ printf("enter the number of items sold:");
+ scanf("%d",&itemsSold);
+ printf("enter the toatal monthly sales:");
+ scanf("%f",&totalSales);
+ bonus=itemsS
