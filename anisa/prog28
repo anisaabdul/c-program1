@@ -1,0 +1,18 @@
+#include<stdio.h>
+void reverse(char*str) {
+char*end=str,temp;
+while(str<end){
+tenp=*str;
+*str=*temp;
+*end=temp;
+str++;
+end--;
+}
+}
+int main(){
+char str[]="Hello";
+printf("Original:%s\n",str);
+reverse(str);
+printf("Reversed:%s\n");
+return 0;
+}
